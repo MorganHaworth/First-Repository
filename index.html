@@ -5,11 +5,16 @@
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
-    <body>
+    <body onload="loadPage()">
         <input id="greeting"> 
         <button onclick="checkInput()">Test</button>
         <a href="learnhtml.html">Go to Learn HTML</a>
         <a href="#new-section">Go to New Section</a>
+        <ul id="generatedList"></ul>
+
+        <!-- After - Class Additions START -->
+        <section id="forecast"></section>
+        <!-- After - Class Additions END -->
         <h1>Learn About Git</h1>
         <h2>How to make a branch called FEATURE_BRANCH</h2>
         <ol>
